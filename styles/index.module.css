@@ -1,0 +1,68 @@
+/* images home page coding  */
+
+
+.mypic{
+    background-image: url('../public/img/bg-header.png') ;
+    overflow: fill;
+    background-attachment: scroll;
+    background-repeat: no-repeat;   
+    
+    height: 100%;
+    z-index: -99;
+    scroll-behavior: smooth;    
+}
+
+.profilebg{
+    background-image: url(../public/img/raj1999.png);
+    overflow: fill;
+    
+    margin-top: 100px;
+    min-height: 120vh;
+    z-index: -500;
+    
+    background-repeat: no-repeat; 
+    overflow: hidden;   
+}
+ 
+
+/* end coding for homepages  */
+
+
+/* portfolios animation css */
+.gradient{
+    padding-left: 40px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: white !important;
+
+
+}
+
+
+.gradient {
+    background: linear-gradient(38deg, #1526e1, #aae115, #e115dd, #a1e115);
+    background-size: 800% 800%;
+
+    animation: AnimationName 5s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+/* end of color css */
+
+/* portfolios responsive  */
+@media screen and (max-width: 480px) {
+    
+    /* .Right_dive{    
+        margin-top: 1000px ;  
+        position: relative; 
+        
+    }
+
+    .left_div{
+        position: absolute ;
+    } */
+  }

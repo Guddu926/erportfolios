@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+/* Project coding  */
+
+.project_1{
+    transition: ease-in-out ,2s;
+    background-position: top;
+  }
+  
+  .project_1:hover{
+    background-position: bottom;
+  }
